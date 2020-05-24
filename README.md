@@ -1,2 +1,5 @@
 # jira-external-link
-Chrome extension to open external links in a new window in jira
+A simple chrome extension jira to open external links in a new window.
+
+Just download the .crx file and install it on chrome.
+

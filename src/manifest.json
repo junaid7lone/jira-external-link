@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Jira external link",
+  "version": "0.1",
+  "description": "Open external links in new window for Jira",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["js/content_script.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  }
+}
